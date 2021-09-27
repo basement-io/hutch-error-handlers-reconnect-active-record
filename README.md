@@ -13,7 +13,7 @@ your messsages if you want.
 On your hutch initializer
 
 ```ruby
-require 'hutch/acknowledgements/retry_once'
+require 'hutch/error_handlers/reconnect_active_record'
 
 Hutch::Config.set(:error_handlers, [
   Hutch::ErrorHandlers::Logger.new, Hutch::ErrorHandlers::ReconnectActiveRecord.new
@@ -23,7 +23,7 @@ Hutch::Config.set(:error_handlers, [
 or if you just want to add the handler after some other configurations
 
 ```ruby
-require 'hutch/acknowledgements/retry_once'
+require 'hutch/error_handlers/reconnect_active_record'
 
 Hutch::Config[:error_handlers] << Hutch::ErrorHandlers::ReconnectActiveRecord.new
 ```
