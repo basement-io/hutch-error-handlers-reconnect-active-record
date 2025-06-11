@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
   s.license       = 'MIT'
 
   s.add_runtime_dependency 'hutch', '~> 1.1'
-  s.add_runtime_dependency 'activerecord', '~> 6.1'
+  s.add_runtime_dependency 'activerecord', '>= 6.1'
 end
