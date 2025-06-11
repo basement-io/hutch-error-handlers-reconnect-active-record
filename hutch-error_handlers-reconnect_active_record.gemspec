@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'hutch-error_handlers-reconnect_active_record'
-  s.version     = '0.0.0'
+  s.version     = '0.0.1'
   s.summary     = 'Try to reconnect the active record connection in case of errors'
   s.description = 'Add this to your hutch config to try to reconnect whenever there is an error with ActiveRecord'
   s.authors     = ['Hélio Nagamachi']
